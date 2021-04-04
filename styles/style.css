@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    padding: 0 0 1em 0;
+    font-size: 1.5em;
+}
+
+h3{
+    padding: 0 0 2em 0;
+    font-size: 1.2em;
+}
+
+.heading_wrapper {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 2em;
+}
+
+.tooltip{
+    display: block;
+    position: absolute;
+    background-color: #010101;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    pointer-events: none;
+}
+
+.map{
+    background-color: #a0dce7;
+    border-radius: 50%;
+}
+
+.country_wrapper{
+    fill: #f2dea0;
+    border: 5px solid black;
+}
+
+.page_wrapper{
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+}
+.dataviz_wrapper{
+    position: relative;
+}
+
+#dataviz{
+    display: flex;
+    justify-content: center;
+}
+
+.content_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px 0px;
+    margin-top: 3em;
+    grid-template-areas:
+      "num_1 ."
+      ". num_2"
+      "num_3 ."
+      ". num_4"
+      "num_5 .";
+  }
+  .num_1 { grid-area: num_1; }
+  .num_2 { grid-area: num_2; }
+  .num_3 { grid-area: num_3; }
+  .num_4 { grid-area: num_4; }
+  .num_5 { grid-area: num_5; }
+
+  .img_1{
+    width: 60%;
+    float: right;
+    margin-top: 5%;
+    border-radius: 50%;
+  }
+
+  .proces{
+    background-color: #010101;
+  }
+
+  .proces h2{
+      color: #fff;
+      text-align: center;
+      padding: 50px 0 50px 0;
+      font-size: 2em;
+  }
+
+  .img_proces-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .proces img{
+      width: 50%;
+  }
+
