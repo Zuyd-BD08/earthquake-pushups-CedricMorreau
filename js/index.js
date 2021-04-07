@@ -22,7 +22,7 @@ const path = d3.geoPath(projection);
 
 
 async function getData() {
-    d3.csv("/data/earthquakes1970-2014.csv").then((data) => { displayVisual(data) });
+    d3.csv("data/earthquakes1970-2014.csv").then((data) => { displayVisual(data) });
 }
 
 async function getMapdata() {
